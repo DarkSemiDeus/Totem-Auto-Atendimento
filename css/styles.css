@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8ecae6;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    background-color: #ffd60a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 80px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 8px solid #ffc300;
+    border-bottom: 8px solid #ffc300;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #ffc300;
+    border: 3px solid #ffc300;
+    transform: scale(1.05);
+}
+
+.button-image {
+    max-width: 100px; /* Reduzi o tamanho da imagem para caber melhor no botão */
+    max-height: 50%;
+    margin-bottom: 10px; /* Ajuste para distanciar a imagem do texto */
+}

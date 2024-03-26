@@ -43,7 +43,7 @@ body {
 }
 
 .button-image {
-    max-width: 100px; /* Reduzi o tamanho da imagem para caber melhor no botão */
+    max-width: 100px;
     max-height: 50%;
-    margin-bottom: 10px; /* Ajuste para distanciar a imagem do texto */
+    margin-bottom: 10px;
 }
